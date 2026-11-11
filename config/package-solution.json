@@ -1,0 +1,39 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "morning-checks-v2-client-side-solution",
+    "id": "800f7583-9b39-4605-b8e0-89ff537da976",
+    "version": "2.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "developer": {
+      "name": "CBC System Team",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.24.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Morning Checks v2: daily checks, escalation, report folders, summary email"
+      },
+      "longDescription": {
+        "default": "Daily system checks stored one item per system per day (MC_DailyChecks), NOC -> System -> Admin escalation, per-system report folders (MC_Reports) with error/warning scanning, and a daily summary email."
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "Morning Checks v2 Feature",
+        "description": "Activates the Morning Checks v2 web part.",
+        "id": "ecd3a435-de65-4097-bc1f-0f06070fb494",
+        "version": "2.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/morning-checks-v2.sppkg"
+  }
+}

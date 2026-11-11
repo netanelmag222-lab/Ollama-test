@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "morning-checks-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/morningChecks/MorningChecksWebPart.js",
+          "manifest": "./src/webparts/morningChecks/MorningChecksWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MorningChecksWebPartStrings": "lib/webparts/morningChecks/loc/{locale}.js"
+  }
+}

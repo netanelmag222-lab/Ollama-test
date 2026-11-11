@@ -1,0 +1,106 @@
+.morningChecks {
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.title { margin: 0 12px 0 0; }
+.filter { min-width: 160px; }
+
+.totals {
+  padding: 6px 10px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.row {
+  border: 1px solid #c8c6c4;
+  border-radius: 6px;
+  padding: 10px 12px;
+  margin: 8px 0;
+}
+
+.mine { border: 2px solid #0078d4; }
+
+.rowHead {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.sysName { font-size: 15px; }
+.stage { margin-left: auto; font-size: 13px; }
+
+.badge {
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.tag {
+  font-size: 11px;
+  padding: 1px 6px;
+  border-radius: 8px;
+  background: #edebe9;
+  color: #323130;
+}
+
+.ok { color: #107c10; background: #dff6dd; }
+.warn { color: #8a3707; background: #fff4ce; }
+.fail { color: #a4262c; background: #fde7e9; }
+.pending { color: #424242; background: #edebe9; }
+
+.files { margin: 8px 0; }
+.file { margin: 4px 0; }
+.lines { margin: 2px 0 4px 18px; font-size: 12px; font-family: Consolas, monospace; }
+
+.muted { color: #605e5c; font-size: 12px; }
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 8px 0;
+}
+
+.selected { outline: 2px solid #0078d4; font-weight: 600; }
+
+.noteRow {
+  display: flex;
+  gap: 6px;
+  align-items: flex-start;
+}
+
+.note { flex: 1; }
+
+.link {
+  background: none;
+  border: none;
+  color: #0078d4;
+  cursor: pointer;
+  padding: 4px 0;
+}
+
+.history {
+  white-space: pre-wrap;
+  font-size: 12px;
+  background: #f3f2f1;
+  color: #323130;
+  padding: 8px;
+  border-radius: 4px;
+  max-height: 240px;
+  overflow: auto;
+}
+
+.preview { margin-top: 12px; }
